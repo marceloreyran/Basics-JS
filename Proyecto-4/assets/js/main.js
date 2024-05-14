@@ -22,8 +22,7 @@ switch(true) {
 
         default:
         resultado.innerHTML = 'Encuentra la mejor opcion de sueldo el monto maximo es de $1700';
-        break;
-
-       
-       
+        break;      
 }
+
+
