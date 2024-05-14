@@ -8,4 +8,4 @@ if ( speed > limit){
         console.log('No te has pasado de la velocidad permitida!');
     }
 
-alert('Este es un mensaje de prueba para el proyecto');
+alert('Este es un mensaje de prueba para el proyecto 3 de JS');
