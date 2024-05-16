@@ -1,0 +1,41 @@
+body {
+
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    background-color: rgb(78, 113, 227);
+    color: aliceblue;
+}
+
+.tables {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 4px;
+}
+
+.tables__item {
+    width: calc(20% - 8px);
+    background-color: blue;
+    border: 2px solid azure;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+.tables__title {
+    color: azure;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.tables__list {
+    list-style: none;
+    padding: 0;
+}
+
+.list__item {
+    color: azure;
+    font-size: 18px;
+    
+}
+
