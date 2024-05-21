@@ -30,7 +30,21 @@ window.addEventListener("DOMContentLoaded", () =>{
     
         console.log(message);
         alert(message);
-        resultBox.innerHTML = `<h1> ${message} </h1>`;
+        resultBox.innerHTML = `<h1> ${message} </h1> 
+        <style>
+
+          h1{
+            color: orange;
+            font-size: 2em;
+            font-family: 'Montserrat';
+            display: flex;
+            aling-items: center;
+            justify-content: center;
+            margin-top: 20px;
+           }
+        </style>
+
+        `;
 
 });
 
